@@ -71,14 +71,14 @@ public:
         std::vector<CTxOut> vout;
         vout.resize(1);
         vout[0].SetEmpty();
-        CTransaction txNew(1, 1465873655, vin, vout, 0);
+        CTransaction txNew(1, 1523700125, vin, vout, 0);
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1465873655;
+        genesis.nTime = 1523700125;
         genesis.nBits = nProofOfWorkLimit.GetCompact();
-        genesis.nNonce = 25041;
+        genesis.nNonce = 283281;
 
         hashGenesisBlock = genesis.GetHash();
 /*
@@ -90,9 +90,8 @@ public:
                         printf("%9u\n",ii);
         }
 */
-
-        assert(hashGenesisBlock == uint256("0x00005ef69e3d4886649e02d3671e8e4367fe38ea86cf10299aa4b2f8422bc448"));
-        assert(genesis.hashMerkleRoot == uint256("0xffc835b4aab6d5002db95706cd864c5614dfb1d7cfda1ce3beedf740a9aca558"));
+        assert(hashGenesisBlock == uint256("0x0000163cc3109523fd954c007ca966bddebae8dd54d45edd64fc23190f9785d1"));
+        assert(genesis.hashMerkleRoot == uint256("0x36190d84d0b7b91faac92956b9b3477fb675da7f3848336910c60e427eac0493"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 0x4d);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 85);
