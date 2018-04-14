@@ -833,8 +833,8 @@ This label turns red, if the priority is smaller than "medium".
 <context>
     <name>GUIUtil::HelpMessageBox</name>
     <message>
-        <source>syndicate-Qt</source>
-        <translation>我我币客户端syndicate-Qt</translation>
+        <source>mybasecoin-Qt</source>
+        <translation>我我币客户端mybasecoin-Qt</translation>
     </message>
     <message>
         <source>version</source>

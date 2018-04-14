@@ -1318,8 +1318,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+691"/>
         <location line="+12"/>
-        <source>syndicate-Qt</source>
-        <translation>syndicate-Qt</translation>
+        <source>mybasecoin-Qt</source>
+        <translation>mybasecoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
