@@ -65,21 +65,21 @@ public:
         nTargetSpacing = 60;
         nTargetTimespan = 10 * 60;  // 10 mins
 
-        const char* pszTimestamp = "June 13th, 2016: ISIS claims responsibility for the shooting massacre at Orlando FL gay night club yesterday morning leaving 49 dead & many wounded.";
+        const char* pszTimestamp = PSZ_TIMESTAMP; 
         std::vector<CTxIn> vin;
         vin.resize(1);
         vin[0].scriptSig = CScript() << 0 << CScriptNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         std::vector<CTxOut> vout;
         vout.resize(1);
         vout[0].SetEmpty();
-        CTransaction txNew(1, 1523700125, vin, vout, 0);
+        CTransaction txNew(1, GENESIS_nTIME, vin, vout, 0);
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1523700125;
+        genesis.nTime = GENESIS_nTIME;
         genesis.nBits = nProofOfWorkLimit.GetCompact();
-        genesis.nNonce = 283281;
+        genesis.nNonce = ;
 
         hashGenesisBlock = genesis.GetHash();
 /*
@@ -91,13 +91,13 @@ public:
                         printf("%9u\n",ii);
         }
 */
-        assert(hashGenesisBlock == uint256("0x0000163cc3109523fd954c007ca966bddebae8dd54d45edd64fc23190f9785d1"));
-        assert(genesis.hashMerkleRoot == uint256("0x36190d84d0b7b91faac92956b9b3477fb675da7f3848336910c60e427eac0493"));
+        assert(hashGenesisBlock == uint256(GENESIS_HASH));
+        assert(genesis.hashMerkleRoot == uint256(GENESIS_MERKLE));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 0x4d);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 85);
-        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 153);
-        base58Prefixes[STEALTH_ADDRESS] = std::vector<unsigned char>(1, 40);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, PUBKEY_PRE);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, SCRIPT_PRE);
+        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, SECRET_PRE);
+        base58Prefixes[STEALTH_ADDRESS] = std::vector<unsigned char>(1, STEALTH_PRE);
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
@@ -107,7 +107,7 @@ public:
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
 	    nPoolMaxTransactions = 3;
-        strStashedsendPoolDummyAddress = "SyndicateDarksendPoo1DummyAdy4viSr";
+        strStashedsendPoolDummyAddress = DUMMY_ADDRESS;
         nLastPOWBlock = LASTPOWBLOCK;
     }
 

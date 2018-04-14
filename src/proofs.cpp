@@ -43,7 +43,7 @@ int64_t GetCoinbaseValue(int nHeight, CAmount nFees)
 	nSubsidy = MASTERNODE_VALUE * COIN;
     } else if (nHeight <= LASTPOWBLOCK)
     {
-        nSubsidy = 100 * COIN;
+        nSubsidy = STAKECOMBINE_VALUE * COIN;
     } else {
 	nSubsidy = 0;
     }
