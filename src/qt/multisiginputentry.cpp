@@ -129,10 +129,10 @@ void MultisigInputEntry::on_transactionId_textChanged(const QString &transaction
         {
             CSyndicateAddress address(addr);
             QString addressStr(address.ToString().c_str());
-            ui->transactionOutput->addItem(idStr + QString(" - ") + addressStr + QString(" - ") + amountStr + QString(" SYNX"));
+            ui->transactionOutput->addItem(idStr + QString(" - ") + addressStr + QString(" - ") + amountStr + QString(" MMBBCC"));
         }
         else
-            ui->transactionOutput->addItem(idStr + QString(" - ") + amountStr + QString(" SYNX"));
+            ui->transactionOutput->addItem(idStr + QString(" - ") + amountStr + QString(" MMBBCC"));
     }
 }
 

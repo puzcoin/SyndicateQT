@@ -41,9 +41,9 @@ QString SyndicateUnits::name(int unit)
 {
     switch(unit)
     {
-    case SYNX: return QString("SYNX");
-    case mSYNX: return QString("mSYNX");
-    case uSYNX: return QString::fromUtf8("μSYNX");
+    case SYNX: return QString("MMBBCC");
+    case mSYNX: return QString("mMMBBCC");
+    case uSYNX: return QString::fromUtf8("μMMBBCC");
     default: return QString("???");
     }
 }
@@ -52,9 +52,9 @@ QString SyndicateUnits::description(int unit)
 {
     switch(unit)
     {
-    case SYNX: return QString("Synxs");
-    case mSYNX: return QString("Milli-Synxs (1 / 1,000)");
-    case uSYNX: return QString("Micro-Synxs (1 / 1,000,000)");
+    case SYNX: return QString("MMBBCCs");
+    case mSYNX: return QString("Milli-MMBBCCs (1 / 1,000)");
+    case uSYNX: return QString("Micro-MMBBCCs (1 / 1,000,000)");
     default: return QString("???");
     }
 }
