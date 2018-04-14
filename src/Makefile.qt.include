@@ -7,67 +7,8 @@ EXTRA_LIBRARIES += qt/libsyndicateqt.a
 
 # syndicate qt core #
 QT_TS = \
-  qt/locale/syndicate_he.ts \
-  qt/locale/syndicate_la.ts \
-  qt/locale/syndicate_sq.ts \
-  qt/locale/syndicate_sr.ts \
-  qt/locale/syndicate_vi.ts \
-  qt/locale/syndicate_eu_ES.ts \
-  qt/locale/syndicate_es_CL.ts \
   qt/locale/syndicate_en.ts \
-  qt/locale/syndicate_nl.ts \
-  qt/locale/syndicate_pam.ts \
-  qt/locale/syndicate_pt_PT.ts \
-  qt/locale/syndicate_ky.ts \
-  qt/locale/syndicate_ca.ts \
-  qt/locale/syndicate_zh_TW.ts \
-  qt/locale/syndicate_ur_PK.ts \
-  qt/locale/syndicate_lt.ts \
-  qt/locale/syndicate_es_UY.ts \
-  qt/locale/syndicate_gl.ts \
-  qt/locale/syndicate_da.ts \
-  qt/locale/syndicate_fr_CA.ts \
-  qt/locale/syndicate_es_DO.ts \
-  qt/locale/syndicate_af_ZA.ts \
-  qt/locale/syndicate_es.ts \
-  qt/locale/syndicate_ja.ts \
-  qt/locale/syndicate_uk.ts \
-  qt/locale/syndicate_bg.ts \
-  qt/locale/syndicate_fa_IR.ts \
-  qt/locale/syndicate_ka.ts \
-  qt/locale/syndicate_sv.ts \
-  qt/locale/syndicate_ar.ts \
-  qt/locale/syndicate_cs.ts \
-  qt/locale/syndicate_cy.ts \
-  qt/locale/syndicate_ms_MY.ts \
-  qt/locale/syndicate_fa.ts \
-  qt/locale/syndicate_es_MX.ts \
-  qt/locale/syndicate_lv_LV.ts \
-  qt/locale/syndicate_be_BY.ts \
-  qt/locale/syndicate_hu.ts \
-  qt/locale/syndicate_id_ID.ts \
-  qt/locale/syndicate_hi_IN.ts \
-  qt/locale/syndicate_ro_RO.ts \
-  qt/locale/syndicate_et.ts \
-  qt/locale/syndicate_hr.ts \
-  qt/locale/syndicate_th_TH.ts \
-  qt/locale/syndicate_tr.ts \
-  qt/locale/syndicate_ru.ts \
-  qt/locale/syndicate_fr.ts \
-  qt/locale/syndicate_ca_ES.ts \
-  qt/locale/syndicate_zh_CN.ts \
-  qt/locale/syndicate_ko_KR.ts \
-  qt/locale/syndicate_kk_KZ.ts \
-  qt/locale/syndicate_nb.ts \
-  qt/locale/syndicate_pt_BR.ts \
-  qt/locale/syndicate_eo.ts \
-  qt/locale/syndicate_sk.ts \
-  qt/locale/syndicate_it.ts \
-  qt/locale/syndicate_pl.ts \
-  qt/locale/syndicate_fi.ts \
-  qt/locale/syndicate_el_GR.ts \
-  qt/locale/syndicate_de.ts \
-  qt/locale/syndicate_sl_SI.ts
+  qt/locale/syndicate_zh_CN.ts
 
 
 QT_FORMS_UI = \
