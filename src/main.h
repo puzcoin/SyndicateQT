@@ -13,6 +13,7 @@
 #include "txmempool.h"
 #include "net.h"
 #include "script/script.h"
+#include "globals.h"
 
 #include <list>
 
@@ -52,7 +53,7 @@ inline int64_t FutureDrift(int64_t nTime) { return nTime + DRIFT; }
 /** "reject" message codes **/
 static const unsigned char REJECT_INVALID = 0x10;
 
-inline int64_t GetMNCollateral(int nHeight) { return 5000; } // *COIN is added with usage implements
+inline int64_t GetMNCollateral(int nHeight) { return MASTERNODE_VALUE; } // *COIN is added with usage implements
 
 extern CScript COINBASE_FLAGS;
 extern CCriticalSection cs_main;
