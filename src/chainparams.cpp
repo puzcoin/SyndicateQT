@@ -12,6 +12,7 @@
 #include "primitives/block.h"
 #include "util.h"
 #include "amount.h"
+#include "globals.h"
 
 #include <boost/assign/list_of.hpp>
 
@@ -107,7 +108,7 @@ public:
 
 	    nPoolMaxTransactions = 3;
         strStashedsendPoolDummyAddress = "SyndicateDarksendPoo1DummyAdy4viSr";
-        nLastPOWBlock = 56007;
+        nLastPOWBlock = LASTPOWBLOCK;
     }
 
     virtual const CBlock& GenesisBlock() const { return genesis; }

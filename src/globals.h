@@ -1,6 +1,8 @@
 #ifndef __GLOBALS_H__
 #define __GLOBALS_H__
-
+#define PREMINE_VALUE		1000000
 #define MASTERNODE_VALUE	10000
+#define STAKECOMBINE_VALUE	100
+#define LASTPOWBLOCK		302
 
 #endif

@@ -15,6 +15,7 @@
 #include "checkpoints.h"
 #include "hashblock.h"
 #include "bignum.h"
+#include "globals.h"
 
 #include <math.h>
 #include <stdint.h> 
@@ -36,11 +37,11 @@ int64_t GetCoinbaseValue(int nHeight, CAmount nFees)
     CAmount nSubsidy; 
     if (nHeight == 1)
     {
-        nSubsidy = 1000000 * COIN;
+        nSubsidy = PREMINE_VALUE * COIN;
     } else if (nHeight == 2)
     {
-	nSubsidy = 10000 * COIN;
-    } else if (nHeight <= 200)
+	nSubsidy = MASTERNODE_VALUE * COIN;
+    } else if (nHeight <= LASTPOWBLOCK)
     {
         nSubsidy = 100 * COIN;
     } else {
