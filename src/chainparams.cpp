@@ -78,11 +78,20 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1465873655;
         genesis.nBits = nProofOfWorkLimit.GetCompact();
-        genesis.nNonce = 48480;
+        genesis.nNonce = 25041;
 
         hashGenesisBlock = genesis.GetHash();
+/*
+	for(uint32_t ii=0;ii<500000;ii++) {
+                genesis.nNonce = ii;
+                hashGenesisBlock = genesis.GetHash();
+                printf("nNonce = %9u, hash = %s, MerkleRoot = %s\n",ii,hashGenesisBlock.GetHex().c_str(),genesis.hashMerkleRoot.GetHex().c_str());
+                if(ii%10000 == 0)
+                        printf("%9u\n",ii);
+        }
+*/
 
-        assert(hashGenesisBlock == uint256("0x00008b645780949ad9a346df272390396d10f6c67a3bef9e2fe2114854786ac3"));
+        assert(hashGenesisBlock == uint256("0x00005ef69e3d4886649e02d3671e8e4367fe38ea86cf10299aa4b2f8422bc448"));
         assert(genesis.hashMerkleRoot == uint256("0xffc835b4aab6d5002db95706cd864c5614dfb1d7cfda1ce3beedf740a9aca558"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 0x4d);
