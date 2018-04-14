@@ -57,8 +57,8 @@ public:
         pchMessageStart[2] = 0x1c;
         pchMessageStart[3] = 0xe5;
         vAlertPubKey = ParseHex("04cc24ab003c828cdd9cf4db2ebbde8esdfsdfsdsdfsdfsfsdfsdf1cecb3bbfa8b3127fcb9dd9b84d44112080827ed7c49a648af9fe788ff42e316aee665879c553f099e55299d6b54edd7e0");
-        nDefaultPort = 9999;
-        nRPCPort = 22348;
+        nDefaultPort = 39999;
+        nRPCPort = 39998;
         nProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
         nProofOfStakeLimit = CBigNum(~uint256(0) >> 20);
         nTargetSpacing = 60;
@@ -85,14 +85,14 @@ public:
         assert(hashGenesisBlock == uint256("0x00008b645780949ad9a346df272390396d10f6c67a3bef9e2fe2114854786ac3"));
         assert(genesis.hashMerkleRoot == uint256("0xffc835b4aab6d5002db95706cd864c5614dfb1d7cfda1ce3beedf740a9aca558"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 0x4d);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 85);
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 153);
         base58Prefixes[STEALTH_ADDRESS] = std::vector<unsigned char>(1, 40);
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
-        vSeeds.push_back(CDNSSeedData("synx.online", "seed.synx.online"));
+        vSeeds.push_back(CDNSSeedData("23.91.97.27", "23.91.97.27"));
         
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
