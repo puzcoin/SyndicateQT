@@ -79,7 +79,7 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = GENESIS_nTIME;
         genesis.nBits = nProofOfWorkLimit.GetCompact();
-        genesis.nNonce = ;
+        genesis.nNonce = GENESIS_nNONCE;
 
         hashGenesisBlock = genesis.GetHash();
 /*
