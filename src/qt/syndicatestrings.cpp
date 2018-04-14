@@ -33,7 +33,7 @@ QT_TRANSLATE_NOOP("syndicate-core", ""
 "If the file does not exist, create it with owner-readable-only file "
 "permissions.\n"
 "It is also recommended to set alertnotify so you are notified of problems;\n"
-"for example: alertnotify=echo %%s | mail -s \"Syndicate Alert\" admin@foo.com\n"),
+"for example: alertnotify=echo %%s | mail -s \"Mybasecoin Alert\" admin@foo.com\n"),
 QT_TRANSLATE_NOOP("syndicate-core", ""
 "Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv3:!SSLv2:!aNULL:!"
 "eNULL:!3DES:@STRENGTH)"),
@@ -43,7 +43,7 @@ QT_TRANSLATE_NOOP("syndicate-core", ""
 "An error occurred while setting up the RPC port %u for listening on IPv6, "
 "falling back to IPv4: %s"),
 QT_TRANSLATE_NOOP("syndicate-core", ""
-"Cannot obtain a lock on data directory %s. Syndicate is probably already running."),
+"Cannot obtain a lock on data directory %s. Mybasecoin is probably already running."),
 QT_TRANSLATE_NOOP("syndicate-core", ""
 "Disable all Darksend and Stealth Messaging related functionality (0-1, "
 "default: 0)"),
@@ -117,7 +117,7 @@ QT_TRANSLATE_NOOP("syndicate-core", ""
 "pay if you send a transaction."),
 QT_TRANSLATE_NOOP("syndicate-core", ""
 "Warning: Please check that your computer's date and time are correct! If "
-"your clock is wrong Syndicate will not work properly."),
+"your clock is wrong Mybasecoin will not work properly."),
 QT_TRANSLATE_NOOP("syndicate-core", ""
 "Warning: error reading wallet.dat! All keys read correctly, but transaction "
 "data or address book entries might be missing or incorrect."),
@@ -173,7 +173,7 @@ QT_TRANSLATE_NOOP("syndicate-core", "Error initializing wallet database environm
 QT_TRANSLATE_NOOP("syndicate-core", "Error loading block database"),
 QT_TRANSLATE_NOOP("syndicate-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("syndicate-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("syndicate-core", "Error loading wallet.dat: Wallet requires newer version of Syndicate"),
+QT_TRANSLATE_NOOP("syndicate-core", "Error loading wallet.dat: Wallet requires newer version of Mybasecoin"),
 QT_TRANSLATE_NOOP("syndicate-core", "Error recovering public key."),
 QT_TRANSLATE_NOOP("syndicate-core", "Error"),
 QT_TRANSLATE_NOOP("syndicate-core", "Error: A fatal internal error occured, see debug.log for details"),
@@ -199,7 +199,7 @@ QT_TRANSLATE_NOOP("syndicate-core", "Imports blocks from external blk000?.dat fi
 QT_TRANSLATE_NOOP("syndicate-core", "Incompatible mode."),
 QT_TRANSLATE_NOOP("syndicate-core", "Incompatible version."),
 QT_TRANSLATE_NOOP("syndicate-core", "Information"),
-QT_TRANSLATE_NOOP("syndicate-core", "Initialization sanity check failed. Syndicate is shutting down."),
+QT_TRANSLATE_NOOP("syndicate-core", "Initialization sanity check failed. Mybasecoin is shutting down."),
 QT_TRANSLATE_NOOP("syndicate-core", "Input is not valid."),
 QT_TRANSLATE_NOOP("syndicate-core", "InstantX options:"),
 QT_TRANSLATE_NOOP("syndicate-core", "Insufficient funds"),
@@ -213,8 +213,8 @@ QT_TRANSLATE_NOOP("syndicate-core", "Invalid masternodeprivkey. Please see docum
 QT_TRANSLATE_NOOP("syndicate-core", "Invalid private key."),
 QT_TRANSLATE_NOOP("syndicate-core", "Invalid script detected."),
 QT_TRANSLATE_NOOP("syndicate-core", "Invalid scriptPubKey"),
-QT_TRANSLATE_NOOP("syndicate-core", "Syndicate version"),
-QT_TRANSLATE_NOOP("syndicate-core", "Keep N Syndicate anonymized (default: 0)"),
+QT_TRANSLATE_NOOP("syndicate-core", "Mybasecoin version"),
+QT_TRANSLATE_NOOP("syndicate-core", "Keep N Mybasecoin anonymized (default: 0)"),
 QT_TRANSLATE_NOOP("syndicate-core", "Keep at most <n> unconnectable blocks in memory (default: %u)"),
 QT_TRANSLATE_NOOP("syndicate-core", "Last Darksend was too recent."),
 QT_TRANSLATE_NOOP("syndicate-core", "Last successful Darksend action was too recent."),
@@ -253,7 +253,7 @@ QT_TRANSLATE_NOOP("syndicate-core", "Require a confirmations for change (default
 QT_TRANSLATE_NOOP("syndicate-core", "Rescan the block chain for missing wallet transactions"),
 QT_TRANSLATE_NOOP("syndicate-core", "Rescanning..."),
 QT_TRANSLATE_NOOP("syndicate-core", "Run in the background as a daemon and accept commands"),
-QT_TRANSLATE_NOOP("syndicate-core", "SSL options: (see the Syndicate Wiki for SSL setup instructions)"),
+QT_TRANSLATE_NOOP("syndicate-core", "SSL options: (see the Mybasecoin Wiki for SSL setup instructions)"),
 QT_TRANSLATE_NOOP("syndicate-core", "Send command to -server or syndicated"),
 QT_TRANSLATE_NOOP("syndicate-core", "Send commands to node running on <ip> (default: 127.0.0.1)"),
 QT_TRANSLATE_NOOP("syndicate-core", "Send trace/debug info to console instead of debug.log file"),
@@ -272,7 +272,7 @@ QT_TRANSLATE_NOOP("syndicate-core", "Set the number of threads to service RPC ca
 QT_TRANSLATE_NOOP("syndicate-core", "Shrink debug.log file on client startup (default: 1 when no -debug)"),
 QT_TRANSLATE_NOOP("syndicate-core", "Signing failed."),
 QT_TRANSLATE_NOOP("syndicate-core", "Signing timed out."),
-QT_TRANSLATE_NOOP("syndicate-core", "Specify configuration file (default: Syndicate.conf)"),
+QT_TRANSLATE_NOOP("syndicate-core", "Specify configuration file (default: Mybasecoin.conf)"),
 QT_TRANSLATE_NOOP("syndicate-core", "Specify connection timeout in milliseconds (default: 5000)"),
 QT_TRANSLATE_NOOP("syndicate-core", "Specify data directory"),
 QT_TRANSLATE_NOOP("syndicate-core", "Specify masternode configuration file (default: masternode.conf)"),
@@ -294,7 +294,7 @@ QT_TRANSLATE_NOOP("syndicate-core", "Transaction not valid, please try again"),
 QT_TRANSLATE_NOOP("syndicate-core", "Transaction not valid."),
 QT_TRANSLATE_NOOP("syndicate-core", "Transmitting final transaction."),
 QT_TRANSLATE_NOOP("syndicate-core", "Unable to bind to %s on this computer (bind returned error %d, %s)"),
-QT_TRANSLATE_NOOP("syndicate-core", "Unable to bind to %s on this computer. Syndicate is probably already running."),
+QT_TRANSLATE_NOOP("syndicate-core", "Unable to bind to %s on this computer. Mybasecoin is probably already running."),
 QT_TRANSLATE_NOOP("syndicate-core", "Unable to sign masternode payment winner, wrong key?"),
 QT_TRANSLATE_NOOP("syndicate-core", "Unable to sign spork message, wrong key?"),
 QT_TRANSLATE_NOOP("syndicate-core", "Unknown network specified in -onlynet: '%s'"),
@@ -314,7 +314,7 @@ QT_TRANSLATE_NOOP("syndicate-core", "Verifying database integrity..."),
 QT_TRANSLATE_NOOP("syndicate-core", "Wait for RPC server to start"),
 QT_TRANSLATE_NOOP("syndicate-core", "Wallet %s resides outside data directory %s."),
 QT_TRANSLATE_NOOP("syndicate-core", "Wallet is locked."),
-QT_TRANSLATE_NOOP("syndicate-core", "Wallet needed to be rewritten: restart Syndicate to complete"),
+QT_TRANSLATE_NOOP("syndicate-core", "Wallet needed to be rewritten: restart Mybasecoin to complete"),
 QT_TRANSLATE_NOOP("syndicate-core", "Warning"),
 QT_TRANSLATE_NOOP("syndicate-core", "Warning: Deprecated argument -debugnet ignored, use -debug=net"),
 QT_TRANSLATE_NOOP("syndicate-core", "Warning: This version is obsolete, upgrade required!"),

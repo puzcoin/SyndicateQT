@@ -184,14 +184,14 @@ int main(int argc, char *argv[])
     {
         // This message can not be translated, as translation is not initialized yet
         // (which not yet possible because lang=XX can be overridden in syndicate.conf in the data directory)
-        QMessageBox::critical(0, "Syndicate",
+        QMessageBox::critical(0, "Mybasecoin",
                               QString("Error: Specified data directory \"%1\" does not exist.").arg(QString::fromStdString(mapArgs["-datadir"])));
         return 1;
     }
     ReadConfigFile(mapArgs, mapMultiArgs);
 
     if (!SelectParamsFromCommandLine()) {
-        QMessageBox::critical(0, "Syndicate",
+        QMessageBox::critical(0, "Mybasecoin",
             QString("Error: Error: invalid combination of -regtest and -testnet."));
 
         return 1;
@@ -200,12 +200,12 @@ int main(int argc, char *argv[])
 
     // Application identification (must be set before OptionsModel is initialized,
     // as it is used to locate QSettings)
-    app.setOrganizationName("Syndicate");
+    app.setOrganizationName("Mybasecoin");
     //XXX app.setOrganizationDomain("");
     if(GetBoolArg("-testnet", false)) // Separate UI settings for testnet
-        app.setApplicationName("syndicate-Qt-testnet");
+        app.setApplicationName("mybasecoin-Qt-testnet");
     else
-        app.setApplicationName("syndicate-Qt");
+        app.setApplicationName("mybasecoin-Qt");
 
     // ... then GUI settings:
     OptionsModel optionsModel;

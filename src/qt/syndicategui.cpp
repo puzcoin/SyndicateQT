@@ -98,7 +98,7 @@ SyndicateGUI::SyndicateGUI(QWidget *parent):
     nWeight(0)
 {
     resize(1024, 520);
-    setWindowTitle(tr("Syndicate") + " - " + tr("Wallet"));
+    setWindowTitle(tr("Mybasecoin") + " - " + tr("Wallet"));
 #ifndef Q_OS_MAC
     qApp->setWindowIcon(QIcon(":icons/syndicate"));
     setWindowIcon(QIcon(":icons/syndicate"));
@@ -274,7 +274,7 @@ void SyndicateGUI::createActions()
     tabGroup->addAction(receiveCoinsAction);
 
     sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Send"), this);
-    sendCoinsAction->setToolTip(tr("Send coins to a Syndicate address"));
+    sendCoinsAction->setToolTip(tr("Send coins to a Mybasecoin address"));
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_3));
     tabGroup->addAction(sendCoinsAction);
@@ -321,14 +321,14 @@ void SyndicateGUI::createActions()
     quitAction->setToolTip(tr("Quit application"));
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
-    aboutAction = new QAction(tr("&About Syndicate"), this);
-    aboutAction->setToolTip(tr("Show information about Syndicate"));
+    aboutAction = new QAction(tr("&About Mybasecoin"), this);
+    aboutAction->setToolTip(tr("Show information about Mybasecoin"));
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutQtAction = new QAction(tr("About &Qt"), this);
     aboutQtAction->setToolTip(tr("Show information about Qt"));
     aboutQtAction->setMenuRole(QAction::AboutQtRole);
     optionsAction = new QAction(tr("&Options..."), this);
-    optionsAction->setToolTip(tr("Modify configuration options for Syndicate"));
+    optionsAction->setToolTip(tr("Modify configuration options for Mybasecoin"));
     optionsAction->setMenuRole(QAction::PreferencesRole);
     toggleHideAction = new QAction(QIcon(":/icons/syndicate"), tr("&Show / Hide"), this);
     encryptWalletAction = new QAction(tr("&Encrypt Wallet..."), this);
