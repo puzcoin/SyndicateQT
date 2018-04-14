@@ -5,13 +5,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Syndicate</source>
-        <translation>About Syndicate</translation>
+        <source>About Mybasecoin</source>
+        <translation>About Mybasecoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Syndicate&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Syndicate&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;Mybasecoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Mybasecoin&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+41"/>
@@ -37,12 +37,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <name>AddEditAtomNode</name>
     <message>
         <location filename="../forms/addeditatomnode.ui" line="+14"/>
-        <source>Add/Edit Syndicate Node</source>
+        <source>Add/Edit Mybasecoin Node</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enter an Alias (friendly name) for your Master Node and its address (either clearnet IP and port or Tor onion address and port). The address should be in the format 123.456.789.123:9999 or akjdsafxjkhasdf.onion:9999. You must send exactly 5000 SYNX to the collateral address.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enter an Alias (friendly name) for your Master Node and its address (either clearnet IP and port or Tor onion address and port). The address should be in the format 123.456.789.123:9999 or akjdsafxjkhasdf.onion:9999. You must send exactly 5000 MMBBCC to the collateral address.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -124,8 +124,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Syndicate addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>These are your Syndicate addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
+        <source>These are your Mybasecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>These are your Mybasecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -139,8 +139,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Syndicate address</source>
-        <translation>Sign a message to prove you own a Syndicate address</translation>
+        <source>Sign a message to prove you own a Mybasecoin address</source>
+        <translation>Sign a message to prove you own a Mybasecoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -154,8 +154,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Syndicate address</source>
-        <translation>Verify a message to ensure it was signed with a specified Syndicate address</translation>
+        <source>Verify a message to ensure it was signed with a specified Mybasecoin address</source>
+        <translation>Verify a message to ensure it was signed with a specified Mybasecoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -322,8 +322,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Syndicate will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Syndicate will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</translation>
+        <source>Mybasecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Mybasecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -394,7 +394,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
 </context>
 <context>
-    <name>SyndicateGUI</name>
+    <name>MybasecoinGUI</name>
     <message>
         <location filename="../iongui.cpp" line="+339"/>
         <source>Sign &amp;message...</source>
@@ -437,8 +437,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Syndicate</source>
-        <translation>Show information about Syndicate</translation>
+        <source>Show information about Mybasecoin</source>
+        <translation>Show information about Mybasecoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -477,13 +477,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-70"/>
-        <source>Send coins to a Syndicate address</source>
-        <translation>Send coins to a Syndicate address</translation>
+        <source>Send coins to a Mybasecoin address</source>
+        <translation>Send coins to a Mybasecoin address</translation>
     </message>
     <message>
         <location line="+54"/>
-        <source>Modify configuration options for Syndicate</source>
-        <translation>Modify configuration options for Syndicate</translation>
+        <source>Modify configuration options for Mybasecoin</source>
+        <translation>Modify configuration options for Mybasecoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -523,8 +523,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-243"/>
         <location line="+572"/>
-        <source>Syndicate</source>
-        <translation>Syndicate</translation>
+        <source>Mybasecoin</source>
+        <translation>Mybasecoin</translation>
     </message>
     <message>
         <location line="-572"/>
@@ -533,8 +533,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+222"/>
-        <source>&amp;About Syndicate</source>
-        <translation>&amp;About Syndicate</translation>
+        <source>&amp;About Mybasecoin</source>
+        <translation>&amp;About Mybasecoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -585,15 +585,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+64"/>
-        <source>Syndicate client</source>
-        <translation>Syndicate client</translation>
+        <source>Mybasecoin client</source>
+        <translation>Mybasecoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+72"/>
-        <source>%n active connection(s) to Syndicate network</source>
+        <source>%n active connection(s) to Mybasecoin network</source>
         <translation>
-            <numerusform>%n active connection to Syndicate network</numerusform>
-            <numerusform>%n active connections to Syndicate network</numerusform>
+            <numerusform>%n active connection to Mybasecoin network</numerusform>
+            <numerusform>%n active connections to Mybasecoin network</numerusform>
         </translation>
     </message>
     <message>
@@ -718,8 +718,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Syndicate address or malformed URI parameters.</source>
-        <translation>URI can not be parsed! This can be caused by an invalid Syndicate address or malformed URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Mybasecoin address or malformed URI parameters.</source>
+        <translation>URI can not be parsed! This can be caused by an invalid Mybasecoin address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -864,8 +864,8 @@ Address: %4
     </message>
     <message>
         <location filename="../syndicate.cpp" line="+105"/>
-        <source>A fatal error occurred. Syndicate can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. Syndicate can no longer continue safely and will quit.</translation>
+        <source>A fatal error occurred. Mybasecoin can no longer continue safely and will quit.</source>
+        <translation>A fatal error occurred. Mybasecoin can no longer continue safely and will quit.</translation>
     </message>
 </context>
 <context>
@@ -1174,12 +1174,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 2 separate masternodes to mix funds up to 1000 SYNX</source>
+        <source>Use 2 separate masternodes to mix funds up to 1000 MMBBCC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 8 separate masternodes to mix funds up to 1000 SYNX</source>
+        <source>Use 8 separate masternodes to mix funds up to 1000 MMBBCC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1189,12 +1189,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is the quickest and will cost about ~0.025 SYNX to anonymize 1000 SYNX</source>
+        <source>This option is the quickest and will cost about ~0.025 MMBBCC to anonymize 1000 SYNX</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is moderately fast and will cost about 0.05 SYNX to anonymize 1000 SYNX</source>
+        <source>This option is moderately fast and will cost about 0.05 MMBBCC to anonymize 1000 SYNX</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1204,7 +1204,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>0.1 SYNX per 1000 SYNX you anonymize.</source>
+        <source>0.1 MMBBCC per 1000 SYNX you anonymize.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1216,17 +1216,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-29"/>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Syndicate&apos;s configuration screen.</source>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Mybasecoin&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Syndicate&apos;s configuration screen.</source>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Mybasecoin&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Syndicate&apos;s configuration screen.</source>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Mybasecoin&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1299,8 +1299,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Syndicate address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid Syndicate address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Mybasecoin address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid Mybasecoin address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1366,7 +1366,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+27"/>
-        <source>Syndicate Network</source>
+        <source>Mybasecoin Network</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1396,7 +1396,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>Syndicate Node Count:</source>
+        <source>Mybasecoin Node Count:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1817,13 +1817,13 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Syndicate after logging in to the system.</source>
-        <translation>Automatically start Syndicate after logging in to the system.</translation>
+        <source>Automatically start Mybasecoin after logging in to the system.</source>
+        <translation>Automatically start Mybasecoin after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Syndicate on system login</source>
-        <translation>&amp;Start Syndicate on system login</translation>
+        <source>&amp;Start Mybasecoin on system login</source>
+        <translation>&amp;Start Mybasecoin on system login</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1842,7 +1842,7 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+15"/>
-        <source>Amount of Syndicate to keep anonymized</source>
+        <source>Amount of Mybasecoin to keep anonymized</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1852,8 +1852,8 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Syndicate client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Syndicate client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Mybasecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Mybasecoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1862,7 +1862,7 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Syndicate network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Mybasecoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1927,8 +1927,8 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Syndicate.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting Syndicate.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Mybasecoin.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting Mybasecoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1979,8 +1979,8 @@ Please unlock your wallet before continuing</source>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Syndicate.</source>
-        <translation>This setting will take effect after restarting Syndicate.</translation>
+        <source>This setting will take effect after restarting Mybasecoin.</source>
+        <translation>This setting will take effect after restarting Mybasecoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -2004,8 +2004,8 @@ Please unlock your wallet before continuing</source>
         <location line="+10"/>
         <location line="+424"/>
         <location line="+681"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Syndicate network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Syndicate network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Mybasecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Mybasecoin network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-1060"/>
@@ -2088,7 +2088,7 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>0 SYNX / 0 Rounds</source>
+        <source>0 MMBBCC / 0 Rounds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2684,8 +2684,8 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Syndicate debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Syndicate debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the Mybasecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the Mybasecoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -2694,8 +2694,8 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-375"/>
-        <source>Welcome to the Syndicate RPC console.</source>
-        <translation>Welcome to the Syndicate RPC console.</translation>
+        <source>Welcome to the Mybasecoin RPC console.</source>
+        <translation>Welcome to the Mybasecoin RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2862,7 +2862,7 @@ Please unlock your wallet before continuing</source>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 SYNX</source>
+        <source>0.00 MMBBCC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2957,7 +2957,7 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-542"/>
-        <source>Enter a Syndicate address (e.g. iURTDp3LdR98Cufh9BbSSqUPJFEtPKSLSe)</source>
+        <source>Enter a Mybasecoin address (e.g. iURTDp3LdR98Cufh9BbSSqUPJFEtPKSLSe)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3075,7 +3075,7 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+112"/>
-        <source>Warning: Invalid Syndicate address</source>
+        <source>Warning: Invalid Mybasecoin address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3126,7 +3126,7 @@ Please unlock your wallet manually or wait for StashedSend mixing to complete be
     </message>
     <message>
         <location line="+4"/>
-        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to 1000 SYNX.</source>
+        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to 1000 MMBBCC.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3200,7 +3200,7 @@ Please unlock your wallet manually or wait for StashedSend mixing to complete be
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Syndicate address (e.g. iURTDp3LdR98Cufh9BbSSqUPJFEtPKSLSe)</source>
+        <source>Enter a Mybasecoin address (e.g. iURTDp3LdR98Cufh9BbSSqUPJFEtPKSLSe)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3261,8 +3261,8 @@ Please unlock your wallet manually or wait for StashedSend mixing to complete be
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Syndicate address</source>
-        <translation>Sign the message to prove you own this Syndicate address</translation>
+        <source>Sign the message to prove you own this Mybasecoin address</source>
+        <translation>Sign the message to prove you own this Mybasecoin address</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -3293,8 +3293,8 @@ Please unlock your wallet manually or wait for StashedSend mixing to complete be
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Syndicate address</source>
-        <translation>Verify the message to ensure it was signed with the specified Syndicate address</translation>
+        <source>Verify the message to ensure it was signed with the specified Mybasecoin address</source>
+        <translation>Verify the message to ensure it was signed with the specified Mybasecoin address</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -3304,8 +3304,8 @@ Please unlock your wallet manually or wait for StashedSend mixing to complete be
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Syndicate address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Enter a Syndicate address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Mybasecoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Enter a Mybasecoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -3314,8 +3314,8 @@ Please unlock your wallet manually or wait for StashedSend mixing to complete be
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Syndicate signature</source>
-        <translation>Enter Syndicate signature</translation>
+        <source>Enter Mybasecoin signature</source>
+        <translation>Enter Mybasecoin signature</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -4046,8 +4046,8 @@ Please unlock your wallet manually or wait for StashedSend mixing to complete be
     <name>syndicate-core</name>
     <message>
         <location filename="../ionstrings.cpp" line="+216"/>
-        <source>Syndicate version</source>
-        <translation>Syndicate version</translation>
+        <source>Mybasecoin version</source>
+        <translation>Mybasecoin version</translation>
     </message>
     <message>
         <location line="+88"/>
@@ -4101,7 +4101,7 @@ Please unlock your wallet manually or wait for StashedSend mixing to complete be
     </message>
     <message>
         <location line="+2"/>
-        <source> Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 SYNX.</source>
+        <source> Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 MMBBCC.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4166,7 +4166,7 @@ Please unlock your wallet manually or wait for StashedSend mixing to complete be
     </message>
     <message>
         <location line="+12"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Syndicate will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Mybasecoin will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4351,7 +4351,7 @@ Please unlock your wallet manually or wait for StashedSend mixing to complete be
     </message>
     <message>
         <location line="+2"/>
-        <source>Keep N Syndicate anonymized (default: 0)</source>
+        <source>Keep N Mybasecoin anonymized (default: 0)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4540,7 +4540,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Syndicate Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Mybasecoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
@@ -4696,8 +4696,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Syndicate Alert&quot; admin@fo
     </message>
     <message>
         <location line="+6"/>
-        <source>SSL options: (see the Syndicate Wiki for SSL setup instructions)</source>
-        <translation>SSL options: (see the Syndicate Wiki for SSL setup instructions)</translation>
+        <source>SSL options: (see the Mybasecoin Wiki for SSL setup instructions)</source>
+        <translation>SSL options: (see the Mybasecoin Wiki for SSL setup instructions)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5001,7 +5001,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Syndicate Alert&quot; admin@fo
     </message>
     <message>
         <location line="-60"/>
-        <source>Initialization sanity check failed. Syndicate is shutting down.</source>
+        <source>Initialization sanity check failed. Mybasecoin is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5051,8 +5051,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Syndicate Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Syndicate</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of Syndicate</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Mybasecoin</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of Mybasecoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -5061,8 +5061,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Syndicate Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Syndicate to complete</source>
-        <translation>Wallet needed to be rewritten: restart Syndicate to complete</translation>
+        <source>Wallet needed to be rewritten: restart Mybasecoin to complete</source>
+        <translation>Wallet needed to be rewritten: restart Mybasecoin to complete</translation>
     </message>
     <message>
         <location line="-143"/>
@@ -5121,8 +5121,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Syndicate Alert&quot; admin@fo
     </message>
     <message>
         <location line="+155"/>
-        <source>Unable to bind to %s on this computer. Syndicate is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. Syndicate is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. Mybasecoin is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. Mybasecoin is probably already running.</translation>
     </message>
     <message>
         <location line="-110"/>
@@ -5151,7 +5151,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Syndicate Alert&quot; admin@fo
     </message>
     <message>
         <location line="-163"/>
-        <source>Cannot obtain a lock on data directory %s. Syndicate is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Mybasecoin is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
