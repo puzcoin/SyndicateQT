@@ -23,14 +23,11 @@ unsigned int nStakeMinAge = 3 * 60 * 60; // 3 Hours
 unsigned int nModifierInterval = 2 * 60; // time to elapse before new modifier is computed
 
 uint256 CBlock::GetHash() const {
-    if (nVersion > 6)
-        return Hash(BEGIN(nVersion), END(nNonce));
-    else
         return GetPoWHash();
 }
 
 uint256 CBlock::GetPoWHash() const {
-    return HashX11(BEGIN(nVersion), END(nNonce));
+        return Hash(BEGIN(nVersion), END(nNonce));
 }
 
 // miner's coin base reward
