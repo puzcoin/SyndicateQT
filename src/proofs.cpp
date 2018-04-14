@@ -33,40 +33,19 @@ uint256 CBlock::GetPoWHash() const {
 // miner's coin base reward
 int64_t GetCoinbaseValue(int nHeight, CAmount nFees)
 {
-    CAmount nSubsidy = 1250 * COIN;;
-    if (nHeight <= 1000)
+    CAmount nSubsidy; 
+    if (nHeight == 1)
     {
-        nSubsidy = 1250 * COIN;
-    }
-    else if (nHeight <= 3501)
+        nSubsidy = 1000000 * COIN;
+    } else if (nHeight == 2)
     {
-        nSubsidy = 500 * COIN;
-    }
-    else if (nHeight <= 8502)
+	nSubsidy = 10000 * COIN;
+    } else if (nHeight <= 200)
     {
-        nSubsidy = 250 * COIN;
+        nSubsidy = 100 * COIN;
+    } else {
+	nSubsidy = 0;
     }
-    else if (nHeight <= 18503)
-    {
-        nSubsidy = 125 * COIN;
-    }
-    else if (nHeight <= 38504)
-    {
-        nSubsidy = 60 * COIN;
-    }
-    else if (nHeight <= 48505)
-    {
-        nSubsidy = 125 * COIN;
-    }
-    else if (nHeight <= 53506)
-    {
-        nSubsidy = 250 * COIN;
-    }
-    else if (nHeight <= 56007)
-    {
-        nSubsidy = 500 * COIN;
-    }
-
     return nSubsidy + nFees;
 }
 
