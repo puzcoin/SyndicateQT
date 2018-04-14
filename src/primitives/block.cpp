@@ -963,7 +963,11 @@ bool CBlock::AcceptBlock()
     // PoW is checked in CheckBlock()
     if (IsProofOfWork())
     {
-        hashProof = GetPoWHash();
+	if( nHeight > Params().LastPOWBlock()) {
+		return DoS(100, error("AcceptBlock() : reject proof-of-work at height %d", nHeight));
+	} else {
+        	hashProof = GetPoWHash();
+	}
     }
 
     // Check coinbase timestamp
