@@ -32,28 +32,28 @@
         <translation>复制当前选中的地址到系统剪贴板</translation>
     </message>
     <message>
-        <source>&amp;New Address</source>
-        <translation>新建地址(&amp;N)</translation>
+        <source>New Address</source>
+        <translation>新建地址(N)</translation>
     </message>
     <message>
         <source>These are your Mybasecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>这是您用来接收支付的我我币地址列表。为不同的支付方建立不同的地址以便于了解支付来源。</translation>
     </message>
     <message>
-        <source>&amp;Copy Address</source>
-        <translation>复制地址(&amp;C)</translation>
+        <source>Copy Address</source>
+        <translation>复制地址(C)</translation>
     </message>
     <message>
-        <source>Show &amp;QR Code</source>
-        <translation>显示二维码(&amp;Q)</translation>
+        <source>Show QR Code</source>
+        <translation>显示二维码(Q)</translation>
     </message>
     <message>
         <source>Sign a message to prove you own a Mybasecoin address</source>
         <translation>对信息进行签名以证明您对该我我币地址的所有权</translation>
     </message>
     <message>
-        <source>Sign &amp;Message</source>
-        <translation>签名(&amp;M)</translation>
+        <source>Sign Message</source>
+        <translation>签名(M)</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -64,20 +64,20 @@
         <translation>验证信息以保证其经过指定我我币地址的签名</translation>
     </message>
     <message>
-        <source>&amp;Verify Message</source>
-        <translation>验证消息(&amp;V)</translation>
+        <source>Verify Message</source>
+        <translation>验证消息(V)</translation>
     </message>
     <message>
-        <source>&amp;Delete</source>
-        <translation>删除(&amp;D)</translation>
+        <source>Delete</source>
+        <translation>删除(D)</translation>
     </message>
     <message>
-        <source>Copy &amp;Label</source>
-        <translation>复制标签(&amp;L)</translation>
+        <source>Copy Label</source>
+        <translation>复制标签(L)</translation>
     </message>
     <message>
-        <source>&amp;Edit</source>
-        <translation>编辑(&amp;E)</translation>
+        <source>Edit</source>
+        <translation>编辑(E)</translation>
     </message>
     <message>
         <source>Export Address Book Data</source>
@@ -235,16 +235,16 @@
 <context>
     <name>MybasecoinGUI</name>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>消息签名(&amp;M)...</translation>
+        <source>Sign message...</source>
+        <translation>消息签名(M)...</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
         <translation>显示钱包概况</translation>
     </message>
     <message>
-        <source>&amp;Transactions</source>
-        <translation>交易记录(&amp;T)</translation>
+        <source>Transactions</source>
+        <translation>交易记录(T)</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
@@ -259,8 +259,8 @@
         <translation>显示用于接收支付的地址列表</translation>
     </message>
     <message>
-        <source>E&amp;xit</source>
-        <translation>退出(&amp;X)</translation>
+        <source>Exit</source>
+        <translation>退出(X)</translation>
     </message>
     <message>
         <source>Quit application</source>
@@ -271,32 +271,32 @@
         <translation>显示关于我我币的信息</translation>
     </message>
     <message>
-        <source>About &amp;Qt</source>
-        <translation>关于 &amp;Qt</translation>
+        <source>About Qt</source>
+        <translation>关于 Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
         <translation>显示 Qt 相关信息</translation>
     </message>
     <message>
-        <source>&amp;Options...</source>
-        <translation>选项(&amp;O)...</translation>
+        <source>Options...</source>
+        <translation>选项(O)...</translation>
     </message>
     <message>
-        <source>&amp;Encrypt Wallet...</source>
-        <translation>加密钱包(&amp;E)...</translation>
+        <source>Encrypt Wallet...</source>
+        <translation>加密钱包(E)...</translation>
     </message>
     <message>
-        <source>&amp;Backup Wallet...</source>
-        <translation>备份钱包(&amp;B)...</translation>
+        <source>Backup Wallet...</source>
+        <translation>备份钱包(B)...</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>更改密码(&amp;C)...</translation>
+        <source>Change Passphrase...</source>
+        <translation>更改密码(C)...</translation>
     </message>
     <message>
-        <source>&amp;Export...</source>
-        <translation>导出(&amp;E)</translation>
+        <source>Export...</source>
+        <translation>导出(E)</translation>
     </message>
     <message>
         <source>Send coins to a Mybasecoin address</source>
@@ -323,16 +323,16 @@
         <translation>更改钱包加密口令</translation>
     </message>
     <message>
-        <source>&amp;Debug window</source>
-        <translation>调试窗口(&amp;D)</translation>
+        <source>Debug window</source>
+        <translation>调试窗口(D)</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
         <translation>打开调试和诊断控制台</translation>
     </message>
     <message>
-        <source>&amp;Verify message...</source>
-        <translation>验证消息(&amp;V)...</translation>
+        <source>Verify message...</source>
+        <translation>验证消息(V)...</translation>
     </message>
     <message>
         <source>Mybasecoin</source>
@@ -343,36 +343,36 @@
         <translation>钱包</translation>
     </message>
     <message>
-        <source>&amp;About Mybasecoin</source>
-        <translation>关于我我币(&amp;A)</translation>
+        <source>About Mybasecoin</source>
+        <translation>关于我我币(A)</translation>
     </message>
     <message>
-        <source>&amp;Show / Hide</source>
-        <translation>显示 / 隐藏(&amp;S)</translation>
+        <source>Show / Hide</source>
+        <translation>显示 / 隐藏(S)</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
         <translation>解锁钱包</translation>
     </message>
     <message>
-        <source>&amp;Lock Wallet</source>
-        <translation>锁定钱包(&amp;L)</translation>
+        <source>Lock Wallet</source>
+        <translation>锁定钱包(L)</translation>
     </message>
     <message>
         <source>Lock wallet</source>
         <translation>锁定钱包</translation>
     </message>
     <message>
-        <source>&amp;File</source>
-        <translation>文件(&amp;F)</translation>
+        <source>File</source>
+        <translation>文件(F)</translation>
     </message>
     <message>
-        <source>&amp;Settings</source>
-        <translation>设置(&amp;S)</translation>
+        <source>Settings</source>
+        <translation>设置(S)</translation>
     </message>
     <message>
-        <source>&amp;Help</source>
-        <translation>帮助(&amp;H)</translation>
+        <source>Help</source>
+        <translation>帮助(H)</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
@@ -411,20 +411,20 @@
         <translation>未进行权益增值，因为钱包中没有成熟的我我币</translation>
     </message>
     <message>
-        <source>&amp;Dashboard</source>
-        <translation>操控板(&amp;D)</translation>
+        <source>Dashboard</source>
+        <translation>操控板(D)</translation>
     </message>
     <message>
-        <source>&amp;Receive</source>
-        <translation>接收我我币(&amp;R)</translation>
+        <source>Receive</source>
+        <translation>接收我我币(R)</translation>
     </message>
     <message>
-        <source>&amp;Send</source>
-        <translation>发送我我币(&amp;S)</translation>
+        <source>Send</source>
+        <translation>发送我我币(S)</translation>
     </message>
     <message>
-        <source>&amp;Unlock Wallet...</source>
-        <translation>解锁钱包(&amp;U)</translation>
+        <source>Unlock Wallet...</source>
+        <translation>解锁钱包(U)</translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -782,16 +782,16 @@ This label turns red, if the priority is smaller than "medium".
         <translation>编辑地址</translation>
     </message>
     <message>
-        <source>&amp;Label</source>
-        <translation>标签(&amp;L)</translation>
+        <source>Label</source>
+        <translation>标签(L)</translation>
     </message>
     <message>
         <source>The label associated with this address book entry</source>
         <translation>地址簿内该项目对应的标签</translation>
     </message>
     <message>
-        <source>&amp;Address</source>
-        <translation>地址(&amp;A)</translation>
+        <source>Address</source>
+        <translation>地址(A)</translation>
     </message>
     <message>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
@@ -884,16 +884,16 @@ This label turns red, if the priority is smaller than "medium".
         <translation>选项</translation>
     </message>
     <message>
-        <source>&amp;Main</source>
-        <translation>主要(&amp;M)</translation>
+        <source>Main</source>
+        <translation>主要(M)</translation>
     </message>
     <message>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
         <translation>支付可选的交易手续费以加速交易(每kB)。大多数交易的数据量为1kB。推荐额0.01。</translation>
     </message>
     <message>
-        <source>Pay transaction &amp;fee</source>
-        <translation>支付交易费用(&amp;F)</translation>
+        <source>Pay transaction fee</source>
+        <translation>支付交易费用(F)</translation>
     </message>
     <message>
         <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
@@ -908,72 +908,72 @@ This label turns red, if the priority is smaller than "medium".
         <translation>开机自动启动我我币客户端</translation>
     </message>
     <message>
-        <source>&amp;Start Mybasecoin on system login</source>
-        <translation>开机时自动启动我我币客户端(&amp;S)</translation>
+        <source>Start Mybasecoin on system login</source>
+        <translation>开机时自动启动我我币客户端(S)</translation>
     </message>
     <message>
-        <source>&amp;Network</source>
-        <translation>网络(&amp;N)</translation>
+        <source>Network</source>
+        <translation>网络(N)</translation>
     </message>
     <message>
         <source>Automatically open the Mybasecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>路由器自动打开我我币客户端端口。该功能仅在路由器开启UPnP支持时有效。</translation>
     </message>
     <message>
-        <source>Map port using &amp;UPnP</source>
-        <translation>使用 &amp;UPnP 映射端口</translation>
+        <source>Map port using UPnP</source>
+        <translation>使用 UPnP 映射端口</translation>
     </message>
     <message>
-        <source>Proxy &amp;IP:</source>
-        <translation>代理服务器 &amp;IP：</translation>
+        <source>Proxy IP:</source>
+        <translation>代理服务器 IP：</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. 127.0.0.1)</source>
         <translation>代理地址(如：127.0.0.1)</translation>
     </message>
     <message>
-        <source>&amp;Port:</source>
-        <translation>端口(&amp;P)：</translation>
+        <source>Port:</source>
+        <translation>端口(P)：</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
         <translation>代理端口（例如 9050）</translation>
     </message>
     <message>
-        <source>&amp;Window</source>
-        <translation>窗口(&amp;W)</translation>
+        <source>Window</source>
+        <translation>窗口(W)</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
         <translation>最小化窗口后仅显示托盘图标</translation>
     </message>
     <message>
-        <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>最小化到托盘(&amp;M)</translation>
+        <source>Minimize to the tray instead of the taskbar</source>
+        <translation>最小化到托盘(M)</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
         <translation>当窗口关闭时程序最小化而不是退出。当使用该选项时，程序只能通过在菜单中选择退出来关闭</translation>
     </message>
     <message>
-        <source>M&amp;inimize on close</source>
-        <translation>单击关闭按钮最小化(&amp;I)</translation>
+        <source>Minimize on close</source>
+        <translation>单击关闭按钮最小化(I)</translation>
     </message>
     <message>
-        <source>&amp;Display</source>
-        <translation>显示(&amp;D)</translation>
+        <source>Display</source>
+        <translation>显示(D)</translation>
     </message>
     <message>
-        <source>User Interface &amp;language:</source>
-        <translation>用户界面语言(&amp;L)：</translation>
+        <source>User Interface language:</source>
+        <translation>用户界面语言(L)：</translation>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting Mybasecoin.</source>
         <translation>在此设置用户界面语言。重启我我币客户端后设置生效。</translation>
     </message>
     <message>
-        <source>&amp;Unit to show amounts in:</source>
-        <translation>我我币金额单位(&amp;U)：</translation>
+        <source>Unit to show amounts in:</source>
+        <translation>我我币金额单位(U)：</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
@@ -984,20 +984,20 @@ This label turns red, if the priority is smaller than "medium".
         <translation>是否需要交易源地址控制功能。</translation>
     </message>
     <message>
-        <source>Display coin &amp;control features (experts only!)</source>
+        <source>Display coin control features (experts only!)</source>
         <translation>显示我我币控制选项(仅用于专家用户)</translation>
     </message>
     <message>
-        <source>&amp;OK</source>
-        <translation>确定(&amp;O)</translation>
+        <source>OK</source>
+        <translation>确定(O)</translation>
     </message>
     <message>
-        <source>&amp;Cancel</source>
-        <translation>取消(&amp;C)</translation>
+        <source>Cancel</source>
+        <translation>取消(C)</translation>
     </message>
     <message>
-        <source>&amp;Apply</source>
-        <translation>应用(&amp;A)</translation>
+        <source>Apply</source>
+        <translation>应用(A)</translation>
     </message>
     <message>
         <source>default</source>
@@ -1095,8 +1095,8 @@ This label turns red, if the priority is smaller than "medium".
         <translation>信息：</translation>
     </message>
     <message>
-        <source>&amp;Save As...</source>
-        <translation>另存为(&amp;S)...</translation>
+        <source>Save As...</source>
+        <translation>另存为(S)...</translation>
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
@@ -1134,8 +1134,8 @@ This label turns red, if the priority is smaller than "medium".
         <translation>客户端版本</translation>
     </message>
     <message>
-        <source>&amp;Information</source>
-        <translation>信息(&amp;I)</translation>
+        <source>Information</source>
+        <translation>信息(I)</translation>
     </message>
     <message>
         <source>Using OpenSSL version</source>
@@ -1162,12 +1162,12 @@ This label turns red, if the priority is smaller than "medium".
         <translation>当前数据块数量</translation>
     </message>
     <message>
-        <source>&amp;Network Traffic</source>
-        <translation>网络流量(&amp;N)</translation>
+        <source>Network Traffic</source>
+        <translation>网络流量(N)</translation>
     </message>
     <message>
-        <source>&amp;Clear</source>
-        <translation>清除(&amp;A)</translation>
+        <source>Clear</source>
+        <translation>清除(A)</translation>
     </message>
     <message>
         <source>Totals</source>
@@ -1186,12 +1186,12 @@ This label turns red, if the priority is smaller than "medium".
         <translation>上一数据块时间</translation>
     </message>
     <message>
-        <source>&amp;Open</source>
-        <translation>打开(&amp;O)</translation>
+        <source>Open</source>
+        <translation>打开(O)</translation>
     </message>
     <message>
-        <source>&amp;Console</source>
-        <translation>控制台(&amp;C)</translation>
+        <source>Console</source>
+        <translation>控制台(C)</translation>
     </message>
     <message>
         <source>Build date</source>
@@ -1309,16 +1309,16 @@ This label turns red, if the priority is smaller than "medium".
         <translation>一次发送给多个接收者</translation>
     </message>
     <message>
-        <source>Add &amp;Recipient</source>
-        <translation>添加收款人(&amp;R)</translation>
+        <source>Add Recipient</source>
+        <translation>添加收款人(R)</translation>
     </message>
     <message>
         <source>Remove all transaction fields</source>
         <translation>删除所有交易区域</translation>
     </message>
     <message>
-        <source>Clear &amp;All</source>
-        <translation>清除所有(&amp;A)</translation>
+        <source>Clear All</source>
+        <translation>清除所有(A)</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -1333,8 +1333,8 @@ This label turns red, if the priority is smaller than "medium".
         <translation>确认并发送货币</translation>
     </message>
     <message>
-        <source>S&amp;end</source>
-        <translation>发送(&amp;E)</translation>
+        <source>Send</source>
+        <translation>发送(E)</translation>
     </message>
     <message>
         <source>Copy quantity</source>
@@ -1412,20 +1412,20 @@ This label turns red, if the priority is smaller than "medium".
         <translation>表单</translation>
     </message>
     <message>
-        <source>A&amp;mount:</source>
-        <translation>金额(&amp;M)</translation>
+        <source>Amount:</source>
+        <translation>金额(M)</translation>
     </message>
     <message>
-        <source>Pay &amp;To:</source>
-        <translation>付给(&amp;T)：</translation>
+        <source>Pay To:</source>
+        <translation>付给(T)：</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
         <translation>为这个地址输入一个标签，以便将它添加到您的地址簿</translation>
     </message>
     <message>
-        <source>&amp;Label:</source>
-        <translation>标签(&amp;L)：</translation>
+        <source>Label:</source>
+        <translation>标签(L)：</translation>
     </message>
     <message>
         <source>Choose address from address book</source>
@@ -1455,8 +1455,8 @@ This label turns red, if the priority is smaller than "medium".
         <translation>签名 - 为消息签名/验证签名消息</translation>
     </message>
     <message>
-        <source>&amp;Sign Message</source>
-        <translation>签名消息(&amp;S)</translation>
+        <source>Sign Message</source>
+        <translation>签名消息(S)</translation>
     </message>
     <message>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
@@ -1499,12 +1499,12 @@ This label turns red, if the priority is smaller than "medium".
         <translation>清空所有签名消息栏</translation>
     </message>
     <message>
-        <source>Clear &amp;All</source>
-        <translation>清除所有(&amp;A)</translation>
+        <source>Clear All</source>
+        <translation>清除所有(A)</translation>
     </message>
     <message>
-        <source>&amp;Verify Message</source>
-        <translation>验证消息(&amp;V)</translation>
+        <source>Verify Message</source>
+        <translation>验证消息(V)</translation>
     </message>
     <message>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>

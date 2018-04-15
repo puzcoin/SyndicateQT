@@ -727,7 +727,7 @@ void HelpMessageBox::showOrPrint()
 
 void SetBlackThemeQSS(QApplication& app)
 {
-    app.setStyleSheet("QWidget        { background: rgb(255,236,227); }"
+    app.setStyleSheet("QWidget        { background: rgb(206,255,157); }"
                       "QFrame         { border: none; }"
                       "QComboBox      { color: rgb(0,0,0); }"
                       "QComboBox QAbstractItemView::item { color: rgb(0,0,0); }"
@@ -739,15 +739,15 @@ void SetBlackThemeQSS(QApplication& app)
                       "QMenuBar       { background: rgb(189,255,123); color: rgb(0,0,0); }"
                       "QMenu          { background: rgb(155,255,55); color: rgb(22,22,22); }"
                       "QMenu::item:selected { background-color: rgb(128,255,0); }"
-                      "QLabel         { color: rgb(191,155,49); }"
+                      "QLabel         { color: rgb(91,183,0); }"
                       "QScrollBar     { color: rgb(255,255,255); }"
-                      "QCheckBox      { color: rgb(120,127,139); }"
+                      "QCheckBox      { color: rgb(,127,139); }"
                       "QRadioButton   { color: rgb(120,127,139); }"
                       "QTabBar::tab   { color: rgb(120,127,139); border: 1px solid rgb(78,79,83); border-bottom: none; padding: 5px; }"
                       "QTabBar::tab:selected  { background: rgb(41,44,48); }"
                       "QTabBar::tab:!selected { background: rgb(24,26,30); margin-top: 2px; }"
                       "QTabWidget::pane { border: 1px solid rgb(78,79,83); }"
-                      "QToolButton    { background: rgb(30,32,36); color: rgb(116,122,134); border: none; border-left-color: rgb(30,32,36); border-left-style: solid; border-left-width: 6px; margin-top: 8px; margin-bottom: 8px; }"
+                      "QToolButton    { background: rgb(26,111,4); color: rgb(116,122,134); border: none; border-left-color: rgb(30,32,36); border-left-style: solid; border-left-width: 6px; margin-top: 8px; margin-bottom: 8px; }"
                       "QToolButton:checked { color: rgb(255,255,255); border: none; border-left-color: rgb(215,173,94); border-left-style: solid; border-left-width: 6px; }"
                       "QProgressBar   { color: rgb(149,148,148); border-color: rgb(255,255,255); border-width: 3px; border-style: solid; }"
                       "QProgressBar::chunk { background: rgb(255,255,255); }"

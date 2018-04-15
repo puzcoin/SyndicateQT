@@ -86,13 +86,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+14"/>
-        <source>&amp;OK</source>
-        <translation type="unfinished">&amp;OK</translation>
+        <source>OK</source>
+        <translation type="unfinished">OK</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>&amp;Cancel</source>
-        <translation type="unfinished">&amp;Cancel</translation>
+        <source>Cancel</source>
+        <translation type="unfinished">Cancel</translation>
     </message>
 </context>
 <context>
@@ -119,8 +119,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-7"/>
-        <source>&amp;New Address</source>
-        <translation>&amp;New Address</translation>
+        <source>New Address</source>
+        <translation>New Address</translation>
     </message>
     <message>
         <location line="-43"/>
@@ -129,13 +129,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+53"/>
-        <source>&amp;Copy Address</source>
-        <translation>&amp;Copy Address</translation>
+        <source>Copy Address</source>
+        <translation>Copy Address</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show &amp;QR Code</source>
-        <translation>Show &amp;QR Code</translation>
+        <source>Show QR Code</source>
+        <translation>Show QR Code</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -144,7 +144,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+3"/>
-        <source>Sign &amp;Message</source>
+        <source>Sign Message</source>
         <translation></translation>
     </message>
     <message>
@@ -159,23 +159,23 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Verify Message</source>
-        <translation>&amp;Verify Message</translation>
+        <source>Verify Message</source>
+        <translation>Verify Message</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>&amp;Delete</source>
-        <translation>&amp;Delete</translation>
+        <source>Delete</source>
+        <translation>Delete</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+65"/>
-        <source>Copy &amp;Label</source>
-        <translation>Copy &amp;Label</translation>
+        <source>Copy Label</source>
+        <translation>Copy Label</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>&amp;Edit</source>
-        <translation>&amp;Edit</translation>
+        <source>Edit</source>
+        <translation>Edit</translation>
     </message>
     <message>
         <location line="+250"/>
@@ -397,8 +397,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <name>MybasecoinGUI</name>
     <message>
         <location filename="../iongui.cpp" line="+339"/>
-        <source>Sign &amp;message...</source>
-        <translation>Sign &amp;message...</translation>
+        <source>Sign message...</source>
+        <translation>Sign message...</translation>
     </message>
     <message>
         <location line="-79"/>
@@ -407,8 +407,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+17"/>
-        <source>&amp;Transactions</source>
-        <translation>&amp;Transactions</translation>
+        <source>Transactions</source>
+        <translation>Transactions</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -427,8 +427,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+49"/>
-        <source>E&amp;xit</source>
-        <translation>E&amp;xit</translation>
+        <source>Exit</source>
+        <translation>Exit</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -442,8 +442,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+2"/>
-        <source>About &amp;Qt</source>
-        <translation>About &amp;Qt</translation>
+        <source>About Qt</source>
+        <translation>About Qt</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -452,28 +452,28 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+2"/>
-        <source>&amp;Options...</source>
-        <translation>&amp;Options...</translation>
+        <source>Options...</source>
+        <translation>Options...</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Encrypt Wallet...</translation>
+        <source>Encrypt Wallet...</source>
+        <translation>Encrypt Wallet...</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Backup Wallet...</translation>
+        <source>Backup Wallet...</source>
+        <translation>Backup Wallet...</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Change Passphrase...</translation>
+        <source>Change Passphrase...</source>
+        <translation>Change Passphrase...</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>&amp;Export...</source>
-        <translation>&amp;Export...</translation>
+        <source>Export...</source>
+        <translation>Export...</translation>
     </message>
     <message>
         <location line="-70"/>
@@ -507,8 +507,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+10"/>
-        <source>&amp;Debug window</source>
-        <translation>&amp;Debug window</translation>
+        <source>Debug window</source>
+        <translation>Debug window</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -517,8 +517,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-5"/>
-        <source>&amp;Verify message...</source>
-        <translation>&amp;Verify message...</translation>
+        <source>Verify message...</source>
+        <translation>Verify message...</translation>
     </message>
     <message>
         <location line="-243"/>
@@ -533,13 +533,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+222"/>
-        <source>&amp;About Mybasecoin</source>
-        <translation>&amp;About Mybasecoin</translation>
+        <source>About Mybasecoin</source>
+        <translation>About Mybasecoin</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>&amp;Show / Hide</source>
-        <translation>&amp;Show / Hide</translation>
+        <source>Show / Hide</source>
+        <translation>Show / Hide</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -548,7 +548,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>&amp;Lock Wallet</source>
+        <source>Lock Wallet</source>
         <translation></translation>
     </message>
     <message>
@@ -558,18 +558,18 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+32"/>
-        <source>&amp;File</source>
-        <translation>&amp;File</translation>
+        <source>File</source>
+        <translation>File</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>&amp;Settings</source>
-        <translation>&amp;Settings</translation>
+        <source>Settings</source>
+        <translation>Settings</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>&amp;Help</source>
-        <translation>&amp;Help</translation>
+        <source>Help</source>
+        <translation>Help</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -623,27 +623,27 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-869"/>
-        <source>&amp;Dashboard</source>
+        <source>Dashboard</source>
         <translation></translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>&amp;Receive</source>
+        <source>Receive</source>
         <translation></translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>&amp;Send</source>
+        <source>Send</source>
         <translation></translation>
     </message>
     <message>
         <location line="+12"/>
-        <source>&amp;Addresses</source>
+        <source>Addresses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>&amp;Masternodes</source>
+        <source>Masternodes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -658,7 +658,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+3"/>
-        <source>Show Auto&amp;Backups</source>
+        <source>Show AutoBackups</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -668,7 +668,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+37"/>
-        <source>&amp;Unlock Wallet...</source>
+        <source>Unlock Wallet...</source>
         <translation></translation>
     </message>
     <message>
@@ -1239,8 +1239,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+8"/>
-        <source>&amp;Label</source>
-        <translation>&amp;Label</translation>
+        <source>Label</source>
+        <translation>Label</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1249,8 +1249,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+11"/>
-        <source>&amp;Address</source>
-        <translation>&amp;Address</translation>
+        <source>Address</source>
+        <translation>Address</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1269,7 +1269,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>&amp;Stealth Address</source>
+        <source>Stealth Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1411,7 +1411,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>&amp;Create...</source>
+        <source>Create...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1431,27 +1431,27 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>&amp;Edit</source>
-        <translation type="unfinished">&amp;Edit</translation>
+        <source>Edit</source>
+        <translation type="unfinished">Edit</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>&amp;Remove</source>
+        <source>Remove</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>&amp;Update</source>
+        <source>Update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>S&amp;tart</source>
+        <source>Start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>St&amp;art All</source>
+        <source>Start All</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1477,7 +1477,7 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+12"/>
-        <source>Public &amp;key:</source>
+        <source>Public key:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1507,7 +1507,7 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+16"/>
-        <source>&amp;Address:</source>
+        <source>Address:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1546,7 +1546,7 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+10"/>
-        <source>&amp;Create Address</source>
+        <source>Create Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1556,7 +1556,7 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Add public key...</source>
+        <source>Add public key...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1631,7 +1631,7 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+10"/>
-        <source>&amp;Spend Funds</source>
+        <source>Spend Funds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1792,8 +1792,8 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+16"/>
-        <source>&amp;Main</source>
-        <translation>&amp;Main</translation>
+        <source>Main</source>
+        <translation>Main</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1802,8 +1802,8 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+15"/>
-        <source>Pay transaction &amp;fee</source>
-        <translation>Pay transaction &amp;fee</translation>
+        <source>Pay transaction fee</source>
+        <translation>Pay transaction fee</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1822,8 +1822,8 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Mybasecoin on system login</source>
-        <translation>&amp;Start Mybasecoin on system login</translation>
+        <source>Start Mybasecoin on system login</source>
+        <translation>Start Mybasecoin on system login</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1847,8 +1847,8 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+24"/>
-        <source>&amp;Network</source>
-        <translation>&amp;Network</translation>
+        <source>Network</source>
+        <translation>Network</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1857,8 +1857,8 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>Map port using &amp;UPnP</source>
-        <translation>Map port using &amp;UPnP</translation>
+        <source>Map port using UPnP</source>
+        <translation>Map port using UPnP</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1867,13 +1867,13 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Connect through SOCKS5 proxy:</source>
+        <source>Connect through SOCKS5 proxy:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Proxy &amp;IP:</source>
-        <translation>Proxy &amp;IP:</translation>
+        <source>Proxy IP:</source>
+        <translation>Proxy IP:</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1882,8 +1882,8 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>&amp;Port:</source>
-        <translation>&amp;Port:</translation>
+        <source>Port:</source>
+        <translation>Port:</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1892,8 +1892,8 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+36"/>
-        <source>&amp;Window</source>
-        <translation>&amp;Window</translation>
+        <source>Window</source>
+        <translation>Window</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1902,8 +1902,8 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Minimize to the tray instead of the taskbar</translation>
+        <source>Minimize to the tray instead of the taskbar</source>
+        <translation>Minimize to the tray instead of the taskbar</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1912,18 +1912,18 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>M&amp;inimize on close</source>
-        <translation>M&amp;inimize on close</translation>
+        <source>Minimize on close</source>
+        <translation>Minimize on close</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>&amp;Display</source>
-        <translation>&amp;Display</translation>
+        <source>Display</source>
+        <translation>Display</translation>
     </message>
     <message>
         <location line="+8"/>
-        <source>User Interface &amp;language:</source>
-        <translation>User Interface &amp;language:</translation>
+        <source>User Interface language:</source>
+        <translation>User Interface language:</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1932,8 +1932,8 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+11"/>
-        <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Unit to show amounts in:</translation>
+        <source>Unit to show amounts in:</source>
+        <translation>Unit to show amounts in:</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1947,23 +1947,23 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>Display coin &amp;control features (experts only!)</source>
+        <source>Display coin control features (experts only!)</source>
         <translation></translation>
     </message>
     <message>
         <location line="+71"/>
-        <source>&amp;OK</source>
-        <translation>&amp;OK</translation>
+        <source>OK</source>
+        <translation>OK</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>&amp;Cancel</source>
-        <translation>&amp;Cancel</translation>
+        <source>Cancel</source>
+        <translation>Cancel</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>&amp;Apply</source>
-        <translation>&amp;Apply</translation>
+        <source>Apply</source>
+        <translation>Apply</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="+47"/>
@@ -2415,8 +2415,8 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+71"/>
-        <source>&amp;Save As...</source>
-        <translation>&amp;Save As...</translation>
+        <source>Save As...</source>
+        <translation>Save As...</translation>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="+62"/>
@@ -2486,8 +2486,8 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="-45"/>
-        <source>&amp;Information</source>
-        <translation>&amp;Information</translation>
+        <source>Information</source>
+        <translation>Information</translation>
     </message>
     <message>
         <location line="-10"/>
@@ -2531,7 +2531,7 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+457"/>
-        <source>&amp;Peers</source>
+        <source>Peers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2634,12 +2634,12 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+171"/>
-        <source>&amp;Network Traffic</source>
+        <source>Network Traffic</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+52"/>
-        <source>&amp;Clear</source>
+        <source>Clear</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2664,13 +2664,13 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+52"/>
-        <source>&amp;Open</source>
-        <translation>&amp;Open</translation>
+        <source>Open</source>
+        <translation>Open</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>&amp;Console</source>
-        <translation>&amp;Console</translation>
+        <source>Console</source>
+        <translation>Console</translation>
     </message>
     <message>
         <location line="-231"/>
@@ -2704,7 +2704,7 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="-116"/>
-        <source>&amp;Disconnect Node</source>
+        <source>Disconnect Node</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2717,27 +2717,27 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="-3"/>
-        <source>1 &amp;hour</source>
+        <source>1 hour</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>1 &amp;day</source>
+        <source>1 day</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>1 &amp;week</source>
+        <source>1 week</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>1 &amp;year</source>
+        <source>1 year</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+46"/>
-        <source>&amp;Unban Node</source>
+        <source>Unban Node</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2912,7 +2912,7 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>Add &amp;Recipient</source>
+        <source>Add Recipient</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2922,8 +2922,8 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>Clear &amp;All</source>
-        <translation>Clear &amp;All</translation>
+        <source>Clear All</source>
+        <translation>Clear All</translation>
     </message>
     <message>
         <location line="+24"/>
@@ -2952,7 +2952,7 @@ Please unlock your wallet before continuing</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>S&amp;end</source>
+        <source>Send</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3149,13 +3149,13 @@ Please unlock your wallet manually or wait for StashedSend mixing to complete be
     </message>
     <message>
         <location line="+28"/>
-        <source>A&amp;mount:</source>
-        <translation>A&amp;mount:</translation>
+        <source>Amount:</source>
+        <translation>Amount:</translation>
     </message>
     <message>
         <location line="-13"/>
-        <source>Pay &amp;To:</source>
-        <translation>Pay &amp;To:</translation>
+        <source>Pay To:</source>
+        <translation>Pay To:</translation>
     </message>
     <message>
         <location line="+41"/>
@@ -3165,8 +3165,8 @@ Please unlock your wallet manually or wait for StashedSend mixing to complete be
     </message>
     <message>
         <location line="-15"/>
-        <source>&amp;Label:</source>
-        <translation>&amp;Label:</translation>
+        <source>Label:</source>
+        <translation>Label:</translation>
     </message>
     <message>
         <location line="+22"/>
@@ -3214,8 +3214,8 @@ Please unlock your wallet manually or wait for StashedSend mixing to complete be
     <message>
         <location line="+13"/>
         <location line="+124"/>
-        <source>&amp;Sign Message</source>
-        <translation>&amp;Sign Message</translation>
+        <source>Sign Message</source>
+        <translation>Sign Message</translation>
     </message>
     <message>
         <location line="-118"/>
@@ -3272,14 +3272,14 @@ Please unlock your wallet manually or wait for StashedSend mixing to complete be
     <message>
         <location line="+3"/>
         <location line="+146"/>
-        <source>Clear &amp;All</source>
-        <translation>Clear &amp;All</translation>
+        <source>Clear All</source>
+        <translation>Clear All</translation>
     </message>
     <message>
         <location line="-87"/>
         <location line="+70"/>
-        <source>&amp;Verify Message</source>
-        <translation>&amp;Verify Message</translation>
+        <source>Verify Message</source>
+        <translation>Verify Message</translation>
     </message>
     <message>
         <location line="-64"/>
