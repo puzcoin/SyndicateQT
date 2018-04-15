@@ -394,7 +394,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
 </context>
 <context>
-    <name>MybasecoinGUI</name>
+    <name>SyndicateGUI</name>
     <message>
         <location filename="../iongui.cpp" line="+339"/>
         <source>Sign message...</source>

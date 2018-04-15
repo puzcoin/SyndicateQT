@@ -233,7 +233,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>MybasecoinGUI</name>
+    <name>SyndicateGUI</name>
     <message>
         <source>Sign message...</source>
         <translation>消息签名(M)...</translation>
