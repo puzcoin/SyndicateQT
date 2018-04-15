@@ -468,7 +468,7 @@ void SyndicateGUI::setClientModel(ClientModel *clientModel)
 
         // Show progress dialog
         connect(clientModel, SIGNAL(showProgress(QString,int)), this, SLOT(showProgress(QString,int)));
-        connect(walletModel, SIGNAL(showProgress(QString,int)), this, SLOT(showProgress(QString,int)));
+//        connect(walletModel, SIGNAL(showProgress(QString,int)), this, SLOT(showProgress(QString,int)));
 
         overviewPage->setClientModel(clientModel);
         rpcConsole->setClientModel(clientModel);
@@ -925,7 +925,7 @@ void SyndicateGUI::dropEvent(QDropEvent *event)
         if (nValidUrisFound)
             gotoSendCoinsPage();
         else
-            notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid Syndicate address or malformed URI parameters."));
+            notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid Mybasecoin address or malformed URI parameters."));
     }
 
     event->acceptProposedAction();
@@ -940,7 +940,7 @@ void SyndicateGUI::handleURI(QString strURI)
         gotoSendCoinsPage();
     }
     else
-        notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid Syndicate address or malformed URI parameters."));
+        notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid Mybasecoin address or malformed URI parameters."));
 }
 
 void SyndicateGUI::setEncryptionStatus(int status)
