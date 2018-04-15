@@ -167,8 +167,8 @@ Value validatepubkey(const Array& params, bool fHelp)
 {
     if (fHelp || !params.size() || params.size() > 2)
         throw runtime_error(
-            "validatepubkey <syndicatepubkey>\n"
-            "Return information about <syndicatepubkey>.");
+            "validatepubkey <mybasecoinpubkey>\n"
+            "Return information about <mybasecoinpubkey>.");
 
     std::vector<unsigned char> vchPubKey = ParseHex(params[0].get_str());
     CPubKey pubKey(vchPubKey);

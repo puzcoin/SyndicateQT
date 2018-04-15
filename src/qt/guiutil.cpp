@@ -731,7 +731,7 @@ void SetBlackThemeQSS(QApplication& app)
                       "QFrame         { border: none; }"
                       "QComboBox      { color: rgb(0,0,0); }"
                       "QComboBox QAbstractItemView::item { color: rgb(0,0,0); }"
-                      "QPushButton    { background: rgb(226,189,121); color: rgb(100,100,250); }"
+                      "QPushButton    { background: rgb(51,255,255); color: rgb(100,100,250); }"
                       "QDoubleSpinBox { background: rgb(63,67,72); color: rgb(255,255,255); border-color: rgb(194,194,194); }"
                       "QLineEdit      { background: rgb(63,67,72); color: rgb(255,255,255); border-color: rgb(194,194,194); }"
                       "QTextEdit      { background: rgb(63,67,72); color: rgb(255,255,255); }"
@@ -754,8 +754,8 @@ void SetBlackThemeQSS(QApplication& app)
                       "QTreeView::item { background: rgb(41,44,48); color: rgb(212,213,213); }"
                       "QTreeView::item:selected { background-color: rgb(48,140,198); }"
                       "QTableView     { background: rgb(66,71,78); color: rgb(212,213,213); gridline-color: rgb(157,160,165); }"
-                      "QHeaderView::section { background: rgb(29,34,39); color: rgb(255,255,255); }"
-                      "QToolBar       { background: rgb(30,32,36); border: none; }");
+                      "QHeaderView::section { background: rgb(22,100,20); color: rgb(255,255,255); }"
+                      "QToolBar       { background: rgb(26,111,4); border: none; }");
 }
 
 void setClipboard(const QString& str)
