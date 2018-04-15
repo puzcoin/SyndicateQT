@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Syndicate Ltd"
-            VALUE "FileDescription",    "syndicate-tx (CLI Syndicate transaction editor utility)"
+            VALUE "CompanyName",        "Mybasecoin Ltd"
+            VALUE "FileDescription",    "mybasecoin-tx (CLI Mybasecoin transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "syndicate-tx"
-            VALUE "LegalCopyright",     "2018-" STRINGIZE(COPYRIGHT_YEAR) " The Bitcoin and Syndicate developers"
+            VALUE "InternalName",       "mybasecoin-tx"
+            VALUE "LegalCopyright",     "2018-" STRINGIZE(COPYRIGHT_YEAR) " The Bitcoin and Mybasecoin developers"
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "syndicate-tx.exe"
-            VALUE "ProductName",        "syndicate-tx"
+            VALUE "OriginalFilename",   "mybasecoin-tx.exe"
+            VALUE "ProductName",        "mybasecoin-tx"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Syndicate Ltd"
-            VALUE "FileDescription",    "syndicate-cli (JSON-RPC client for Syndicate Core)"
+            VALUE "CompanyName",        "Mybasecoin Ltd"
+            VALUE "FileDescription",    "mybasecoin-cli (JSON-RPC client for Mybasecoin Core)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "syndicate-cli"
-            VALUE "LegalCopyright",     "2018-" STRINGIZE(COPYRIGHT_YEAR) " The Bitcoin and Syndicate developers"
+            VALUE "InternalName",       "mybasecoin-cli"
+            VALUE "LegalCopyright",     "2018-" STRINGIZE(COPYRIGHT_YEAR) " The Bitcoin and Mybasecoin developers"
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "syndicate-cli.exe"
-            VALUE "ProductName",        "syndicate-cli"
+            VALUE "OriginalFilename",   "mybasecoin-cli.exe"
+            VALUE "ProductName",        "mybasecoin-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END
