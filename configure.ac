@@ -983,7 +983,7 @@ AC_MSG_CHECKING([whether to build libraries])
 AM_CONDITIONAL([BUILD_SYNDICATE_LIBS], [test x$build_mybasecoin_libs = xyes])
 if test x$build_mybasecoin_libs = xyes; then
   AC_DEFINE(HAVE_CONSENSUS_LIB, 1, [Define this symbol if the consensus lib has been built])
-  AC_CONFIG_FILES([libmybasecoinconsensus.pc:libmybasecoinconsensus.pc.in])
+  AC_CONFIG_FILES([libsyndicateconsensus.pc:libsyndicateconsensus.pc.in])
 fi
 AC_MSG_RESULT($build_mybasecoin_libs)
 
