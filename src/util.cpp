@@ -669,7 +669,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Unix: ~/.Syndicate
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Syndicate";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Mybasecoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
