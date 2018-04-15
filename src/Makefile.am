@@ -454,7 +454,7 @@ CLEANFILES += zmq/*.gcda zmq/*.gcno
 
 DISTCLEANFILES = obj/build.h
 
-config/syndicate-config.h: config/stamp-h1
+config/mybasecoin-config.h: config/stamp-h1
 	@$(MAKE) -C $(top_builddir) $(subdir)/$(@)
 config/stamp-h1: $(top_srcdir)/$(subdir)/config/syndicate-config.h.in $(top_builddir)/config.status
 	$(AM_V_at)$(MAKE) -C $(top_builddir) $(subdir)/$(@)

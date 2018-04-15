@@ -7,7 +7,7 @@
 #define SYNX_UTIL_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/syndicate-config.h"
+#include "config/mybasecoin-config.h"
 #endif
 
 #ifndef WIN32
