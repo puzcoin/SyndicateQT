@@ -60,8 +60,8 @@ Value stashedsend(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() == 0)
         throw runtime_error(
-            "stashedsend <syndicateaddress> <amount>\n"
-            "syndicateaddress, reset, or auto (AutoDenominate)"
+            "stashedsend <mybasecoinaddress> <amount>\n"
+            "mybasecoinaddress, reset, or auto (AutoDenominate)"
             "<amount> is a real and is rounded to the nearest 0.00000001"
             + HelpRequiringPassphrase());
 
@@ -82,8 +82,8 @@ Value stashedsend(const Array& params, bool fHelp)
 
     if (params.size() != 2)
         throw runtime_error(
-            "stashedsend <syndicateaddress> <amount>\n"
-            "syndicateaddress, denominate, or auto (AutoDenominate)"
+            "stashedsend <mybasecoinaddress> <amount>\n"
+            "mybasecoinaddress, denominate, or auto (AutoDenominate)"
             "<amount> is type \"real\" and will be rounded to the nearest 0.1"
             + HelpRequiringPassphrase());
 

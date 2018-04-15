@@ -135,8 +135,8 @@ Value validateaddress(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 1)
         throw runtime_error(
-            "validateaddress <syndicateaddress>\n"
-            "Return information about <syndicateaddress>.");
+            "validateaddress <mybasecoinaddress>\n"
+            "Return information about <mybasecoinaddress>.");
 
     CSyndicateAddress address(params[0].get_str());
     bool isValid = address.IsValid();
@@ -207,7 +207,7 @@ Value verifymessage(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 3)
         throw runtime_error(
-            "verifymessage <syndicateaddress> <signature> <message>\n"
+            "verifymessage <mybasecoinaddress> <signature> <message>\n"
             "Verify a signed message");
 
     string strAddress  = params[0].get_str();
