@@ -748,7 +748,7 @@ void SetBlackThemeQSS(QApplication& app)
                       "QTabBar::tab:!selected { background: rgb(24,26,30); margin-top: 2px; }"
                       "QTabWidget::pane { border: 1px solid rgb(44,152,225); }" //tab页背景
                       "QToolButton    { background: rgb(44,152,225); color: rgb(255,255,255); border: none; border-left-color: rgb(89,98,249); border-left-style: solid; border-left-width: 0px; margin-top: 0px; margin-bottom: 0px; }" //工具栏
-                      "QToolButton:checked { color: rgb(238,249,43); border: none; border-left-color: rgb(30,138,210); border-left-style: solid; border-left-width: 1px; border-bottom-color: rgb(30,138,210); border-bottom-style: solid; border-bottom-width: 1px;}" //工具栏选中
+                      "QToolButton:checked { color: rgb(238,249,43); border: none; border-left-color: rgb(30,138,210); border-left-style: solid; border-left-width: 1px; border-bottom-color: rgb(30,138,210); border-bottom-style: solid; border-bottom-width: 1px; border-right-color: rgb(40,40,40); border-right-style: solid; border-right-width: 1px; border-top-color: rgb(40,40,40); border-top-style: solid; border-top-width: 1px;}" //工具栏选中
                       "QProgressBar   { color: rgb(117,180,255); border-color: rgb(0,0,138); border-width: 1px; border-style: solid; }" //进度条的底色
                       "QProgressBar::chunk { background: rgb(0,80,180); }" //进度条的进度
                       "QTreeView::item { background: rgb(41,44,48); color: rgb(55,55,55); }"
