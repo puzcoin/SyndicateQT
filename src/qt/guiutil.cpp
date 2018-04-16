@@ -737,15 +737,16 @@ void SetBlackThemeQSS(QApplication& app)
                       "QTextEdit      { background: rgb(255,255,255); color: rgb(0,0,0); }"
                       "QPlainTextEdit { background: rgb(255,255,255); color: rgb(0,0,0); }"
                       "QMenuBar       { background: rgb(177,226,255); color: rgb(44,152,225); }" //菜单栏
-                      "QMenu          { background: rgb(177,226,266); color: rgb(44,152,225); }"//菜单
-                      "QMenu::item:selected { background-color: rgb(128,255,0); }"
+                      "QMenu          { background: rgb(85,191,255); color: rgb(44,152,225); }"//菜单
+		      "QMenu::item { background-color: rgb(85,191,255); }"
+                      "QMenu::item:selected { background-color: rgb(225,244,255); }"
                       "QLabel         { color: rgb(36,47,251); }" //标签栏
                       "QScrollBar     { color: rgb(255,255,255); }"
                       "QCheckBox      { color: rgb(120,127,139); }"
                       "QRadioButton   { color: rgb(120,127,139); }"
                       "QTabBar::tab   { color: rgb(120,127,139); border: 1px solid rgb(78,79,83); border-bottom: none; padding: 3px; }"
-                      "QTabBar::tab:selected  { background: rgb(41,44,48); }"
-                      "QTabBar::tab:!selected { background: rgb(24,26,30); margin-top: 2px; }"
+                      "QTabBar::tab:selected  { background: rgb(127,163,247); }"
+                      "QTabBar::tab:!selected { background: rgb(157,193,247); margin-top: 1px; }"
                       "QTabWidget::pane { border: 1px solid rgb(44,152,225); }" //tab页背景
                       "QToolButton    { background: rgb(44,152,225); color: rgb(255,255,255); border: none; border-left-color: rgb(89,98,249); border-left-style: solid; border-left-width: 0px; margin-top: 0px; margin-bottom: 0px; }" //工具栏
                       "QToolButton:checked { color: rgb(238,249,43); border: none; border-left-color: rgb(30,138,210); border-left-style: solid; border-left-width: 1px; border-bottom-color: rgb(30,138,210); border-bottom-style: solid; border-bottom-width: 1px; border-right-color: rgb(40,40,40); border-right-style: solid; border-right-width: 1px; border-top-color: rgb(40,40,40); border-top-style: solid; border-top-width: 1px;}" //工具栏选中
