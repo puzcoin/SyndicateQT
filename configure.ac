@@ -13,10 +13,10 @@ AC_CONFIG_HEADERS([src/config/mybasecoin-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([build-aux/m4])
 
-SYNDICATE_DAEMON_NAME=syndicated
-SYNDICATE_GUI_NAME=syndicate-qt
-SYNDICATE_CLI_NAME=syndicate-cli
-SYNDICATE_TX_NAME=syndicate-tx
+SYNDICATE_DAEMON_NAME=mybasecoind
+SYNDICATE_GUI_NAME=mybasecoin-qt
+SYNDICATE_CLI_NAME=mybasecoin-cli
+SYNDICATE_TX_NAME=mybasecoin-tx
 
 dnl Unless the user specified ARFLAGS, force it to be cr
 AC_ARG_VAR(ARFLAGS, [Flags for the archiver, defaults to <cr> if not set])
